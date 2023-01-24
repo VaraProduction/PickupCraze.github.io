@@ -1,0 +1,7 @@
+{
+	"name": "Pickup Craze",
+	"private": true,
+	"dependencies": {
+		"cordova-android": "11.0.0"
+	}
+}

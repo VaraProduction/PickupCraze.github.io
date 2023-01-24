@@ -1,0 +1,100 @@
+{
+	"id": "com.pickup.craze",
+	"version": "1.0.0.0",
+	"versionCode": "1000000",
+	"name": "Pickup Craze",
+	"description": "Physics Game to collect coins and reach next levels.",
+	"whitelist": [
+		"http://*/*",
+		"https://*/*"
+	],
+	"author": "VARA",
+	"email": "akaappadoo@umail.utm.ac.mu",
+	"website": "",
+	"orientation": "landscape",
+	"fullscreen": false,
+	"permissionTypes": [],
+	"icons": [
+		{
+			"src": "www/icons/icon-512.png",
+			"width": 512,
+			"height": 512,
+			"density": "xxxhdpi"
+		},
+		{
+			"src": "www/icons/icon-256.png",
+			"width": 256,
+			"height": 256,
+			"density": null
+		},
+		{
+			"src": "www/icons/icon-128.png",
+			"width": 128,
+			"height": 130,
+			"density": "xhdpi"
+		},
+		{
+			"src": "www/icons/icon-64.png",
+			"width": 64,
+			"height": 64,
+			"density": "mdpi"
+		},
+		{
+			"src": "www/icons/icon-32.png",
+			"width": 32,
+			"height": 32,
+			"density": null
+		},
+		{
+			"src": "www/icons/icon-16.png",
+			"width": 16,
+			"height": 16,
+			"density": null
+		}
+	],
+	"adaptiveIcons": [],
+	"preferences": [],
+	"plugins": [
+		{
+			"id": "admob-plus-cordova",
+			"version": "1.28.0",
+			"variables": [
+				[
+					"APP_ID_ANDROID",
+					"ca-app-pub-4473465325083725~4488621339"
+				]
+			]
+		},
+		{
+			"id": "cordova-plugin-consent",
+			"version": "2.2.0",
+			"variables": []
+		},
+		{
+			"id": "cordova-plugin-device",
+			"version": "2.0.3",
+			"variables": []
+		},
+		{
+			"id": "construct-mobile-export",
+			"version": "1.0.0",
+			"variables": []
+		}
+	],
+	"resourceFiles": [],
+	"android": {
+		"min": "22",
+		"target": "32",
+		"engine": "11.0.0",
+		"plugins": []
+	},
+	"splash": "www/icons/loading-logo.png",
+	"splashBackground": "#ffffff",
+	"autoHideSplashScreen": false,
+	"iosScheme": "app",
+	"androidScheme": "https",
+	"enableAndroidX": false,
+	"enableGooglePlayServices": false,
+	"ios": null,
+	"useragent": null
+}
